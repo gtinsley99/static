@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -10px;
+    width: 100vw;
+    padding: 30px;
+    background-color: aqua;
+    margin: 0;
+    border-bottom: 3px solid black;
+}
+
+.link{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    border: 3px solid black;
+    margin-top: 15%;
+    background-color: white;
+    padding: 10px 0px;
+    width: 500px;
+}
+
+.contactInput{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submitButton{
+    background-color: aliceblue;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.submitButton:hover{
+    background-color: white;
+    cursor: pointer;
+}
