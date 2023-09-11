@@ -4,7 +4,7 @@ const express = require("express");
 // Renames express to app as per conventional usage
 const app = express();
 
-// Allows us to decide which port number tot assign
+// Allows us to decide which port number to assign
 const port = 5001;
 
 // express.static("public") sets up a static webserver pulling files from the public folder
